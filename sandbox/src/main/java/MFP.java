@@ -7,7 +7,7 @@ public class MFP {
     hello("Rt");
     hello("tg");
 
-    Square s = new Square (10);
+    Square s = new Square (55);
     System.out.println("Площадь квадрата со стороной " + s.len + " = " + s.area());
 
     Rectangle r = new Rectangle(4, 6);
