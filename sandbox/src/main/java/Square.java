@@ -1,9 +1,14 @@
 public class Square {
 
-  public double l;
+  public double len;
 
-  public Square (double len) {
-    this.l = len;
+  public Square(double len) {
+  this.len = len;
+    }
+
+  public double area () {
+    return this.len * this.len;
   }
 
 }
+

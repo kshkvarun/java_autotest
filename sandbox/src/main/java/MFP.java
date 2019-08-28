@@ -4,29 +4,20 @@ public class MFP {
 
   public static void main(String[] args) {
     hello("World!");
-    hello("usr");
-    hello("Alex");
+    hello("Rt");
+    hello("tg");
 
-    Square s = new Square(5);
-    System.out.println("Площадь квадрата " + s.l + " = " + area(s));
+    Square s = new Square (10);
+    System.out.println("Площадь квадрата со стороной " + s.len + " = " + s.area());
 
-    Rectangle r = new Rectangle();
-    r.a = 4;
-    r.b = 6;
-    System.out.println("Площадь треугольника со сторонами " + r.a + " и " + r.b + " = " + area(r));
+    Rectangle r = new Rectangle(4, 6);
+        System.out.println("Площадь прямоугольника со сторонами " + r.a + " и " + r.b + " = " + r.area());
 
   }
 
-  public static void hello(String SB) {
-    System.out.println("Hello " + SB + " " + "!");
-  }
+    public static void hello (String sb) {
+      System.out.println("Hello " + sb);
+    }
 
-  public static double area(Square s) {
-    return s.l * s.l;
-  }
 
-  public static double area(Rectangle r) {
-    return r.a * r.b;
-
-  }
 }
