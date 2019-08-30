@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: org.junit.jupiter:junit-jupiter-api:5.5.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Cannot resolve external dependency org.junit.jupiter:junit-jupiter-api:5.5.1 because no repositories are defined." />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

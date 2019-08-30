@@ -1,3 +1,8 @@
 apply plugin: 'java'
 apply plugin: 'application'
-mainClassName = "MFP1"
+//mainClassName = "MFP1"
+dependencies {
+    //testCompile 'com.codeborne:selenide:5.2.8'
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.5.1")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.5.1")
+}
