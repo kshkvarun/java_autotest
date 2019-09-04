@@ -21,6 +21,13 @@ public class UserLogin extends Temp {
   private String delProd = "#yw0 > button > span";
   private String ManufacturLabel = "#custom-filters-block > div:nth-child(2) > div:nth-child(2) > div > div > div > div.scrollbar-dropdown.list-dropdown > ul > li:nth-child(9) > div > label";
   private String ManufactFacetSearch = "#custom-filters-block > div:nth-child(2) > div:nth-child(2) > div > div > div > div.search-button.search-button-static > a";
+  private String LogIn = "#LoginForm_username";
+  private String Pass = "#password-field";
+  private String LoginValue = "test_main";
+  private String PassValue = "@Admin123";
+  private String LogOut = "#account-profile-menu > a.logout";
+  private String EmptyCartText = "You still do not have items in your basket";
+
   Random random = new Random();
 
   @BeforeMethod
@@ -33,8 +40,8 @@ public class UserLogin extends Temp {
   @Test(priority = 1)
   public void logging() {
     open(PtUrl);
-    $("#LoginForm_username").setValue("test_main");
-    $("#password-field").setValue("@Admin123");
+    $(LogIn).setValue(LoginValue);
+    $(Pass).setValue(PassValue);
     $(".blue-btn").click();
     $("#keyword").shouldBe(visible);
   }
@@ -76,10 +83,10 @@ public class UserLogin extends Temp {
     prodInCart = $(By.className("cart-product__title")).getText();
     Assert.assertEquals(title, prodInCart);
     $(delProd).click();
-    $("body > div.page-wrap.container > div > p").shouldHave(text("You still do not have items in your basket"));
+    $("body > div.page-wrap.container > div > p").shouldHave(text(EmptyCartText));
     $("body > header > div.container > menu > li.account.dropdown-list > a > div.icon > span").click();
-    $("#account-profile-menu > a.logout").scrollTo().click();
-    $("#LoginForm_username").shouldBe(appears);
+    $(LogOut).scrollTo().click();
+    $(LogIn).shouldBe(appears);
 
 
 
