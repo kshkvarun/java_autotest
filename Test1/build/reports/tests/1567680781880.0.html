@@ -1,0 +1,387 @@
+<html><head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    
+    <meta name="healthcheck" content="bXDnT7Z5pasZ8xcrHM">
+    <link rel="stylesheet" type="text/css" href="/admin/assets/5f54fa4d/jui/css/base/jquery-ui.css?v=1496906347">
+<link rel="stylesheet" type="text/css" href="/admin/assets/a1170159/general/bootstrap/css/bootstrap.min.css?v=1557745793">
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/admin/assets/a1170159/general/css/awesome-checkbox.css?v=1557745793">
+<link rel="stylesheet" type="text/css" href="/admin/assets/66b44c75/css/main.css?v=1527164029">
+<link rel="stylesheet" type="text/css" href="/admin/assets/a1170159/general/css/animate/animate.min.css?v=1557745793">
+<link rel="stylesheet" type="text/css" href="/admin/assets/a1170159/general/css/metismenu/metisMenu.min.css?v=1557745793">
+<link rel="stylesheet" type="text/css" href="/admin/assets/a1170159/general/css/metismenu/menu.css?v=1557745793">
+<link rel="stylesheet" type="text/css" href="/admin/assets/a1170159/bo/css/bo.css?v=1557745792">
+<script type="text/javascript" src="/admin/assets/5f54fa4d/jquery.min.js?v=1496906347"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.2/js.cookie.min.js"></script>
+<script type="text/javascript" src="/admin/assets/5f54fa4d/jui/js/jquery-ui.min.js?v=1496906347"></script>
+<script type="text/javascript" src="/admin/assets/a1170159/general/bootstrap/js/bootstrap.min.js?v=1557745793"></script>
+<script type="text/javascript" src="/admin/assets/66b44c75/js/gridview.min.js?v=1549896292"></script>
+<script type="text/javascript" src="/admin/assets/66b44c75/js/jquery.yiigridview.min.js?v=1527164029"></script>
+<script type="text/javascript" src="/admin/assets/a1170159/general/js/gepard.js?v=1557745805"></script>
+<script type="text/javascript" src="/admin/assets/a1170159/general/js/jquery.debounce.js?v=1557745793"></script>
+<script type="text/javascript" src="/admin/assets/a1170159/general/js/modalBootstrap.min.js?v=1557745793"></script>
+<script type="text/javascript" src="/admin/assets/a1170159/general/js/noty/packaged/jquery.noty.packaged.min.js?v=1557745793"></script>
+<script type="text/javascript" src="/admin/assets/a1170159/general/js/noty.min.js?v=1557745793"></script>
+<script type="text/javascript" src="/admin/assets/a1170159/bo/js/noty_bo.min.js?v=1557745792"></script>
+<script type="text/javascript" src="/admin/assets/a1170159/general/js/metismenu/metisMenu.min.js?v=1557745793"></script>
+<script type="text/javascript" src="/admin/assets/a1170159/general/js/metismenu/resize.min.js?v=1557745793"></script>
+<script type="text/javascript" src="/admin/assets/a1170159/bo/js/bo.js?v=1557745792"></script>
+<script type="text/javascript" src="/admin/assets/a1170159/general/js/bootstrap-multiselect.js?v=1557745793"></script>
+<script type="text/javascript" src="/admin/assets/a1170159/general/js/sortable/Sortable.min.js?v=1557745793"></script>
+<script type="text/javascript" src="/admin/assets/3ff0e568/js/languages.js?v=1557745805"></script>
+<script type="text/javascript" src="/admin/assets/5f54fa4d/jquery.yii.js?v=1496906347"></script>
+<script type="text/javascript" src="/admin/assets/5f54fa4d/jquery.yiiactiveform.js?v=1496906347"></script>
+<title>PT2017 BackOffice</title>
+    <link rel="shortcut icon" href="/content/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/content/favicon.ico" type="image/x-icon">
+
+    <script type="text/javascript">
+                Gepard.setToken('CSRF_TOKEN', 'SDkzVUY2aXpOVVZ3Y1MxVnI0R2ZXWU5vZWlmbXFvTkU9SM_1b2Z7lHeCoU87ooQXTZwc2uuOhi-8AUlBkjreKw==');
+        
+        $(function () {
+            $('#navigation li').hover(
+                function () {
+                    //show submenu
+                    $('ul', this).slideDown(100);
+                },
+                function () {
+                    //hide submenu
+                    $('ul', this).slideUp(100);
+                }
+            );
+        });
+    </script>
+    </head>
+
+<body>
+<section id="top">
+            <div class="row">
+            <div class="metis-menu col-lg-4">
+                
+                    <script>ResizeMenu.setMenuState();</script>
+                
+                <aside class="sidebar" style=""><nav class="sidebar-nav"><ul class="metismenu" id="menu2"><li><a class="hide_menu" href="#"><span class="glyphicon glyphicon-align-justify"></span>
+                        <span class="text"></span></a><a href="/admin/"><span class="glyphicon glyphicon-home"></span>
+                        <span class="text"> Home</span></a></li><li><a aria-expanded="false" data-id="65784c0872af96ba5c35c001772229d6" href="/admin/document"><span class="glyphicon glyphicon-save"></span>
+                            <span class="text"> Documents</span><span class="fa arrow"></span></a></li><li><a aria-expanded="false" data-id="3" href="#"><span class="glyphicon glyphicon-retweet"></span>
+                            <span class="text"> Orders</span><span class="fa arrow"></span></a><ul class="level_1 collapse" aria-expanded="false" nested="true"><li><a data-id="9" href="/admin/orders/order"><span class="text">Orders Management</span></a></li><li><a data-id="6b6397164f70cf71d6869870f5ed7d66" href="/admin/orders/order/oci"><span class="text">OCI Orders History</span></a></li></ul></li><li><a aria-expanded="false" data-id="2c028d6ddbd224666d09deaa56eeddf2" href="/admin/departments/"><span class="glyphicon glyphicon-briefcase"></span>
+                            <span class="text"> Departments</span><span class="fa arrow"></span></a><ul class="level_1 collapse" aria-expanded="false" nested="true"><li><a data-id="205eaa17ba44672252841c2ae81e0e65" href="/admin/departments"><span class="glyphicon glyphicon-wrench" style="margin-right:5px;"></span><span class="text">Department Management</span></a></li><li><a data-id="6ea56d10716ff2c8cf74230f65378afd" href="/admin/limits"><span class="glyphicon glyphicon-align-justify" style="margin-right:5px;"></span><span class="text">Users limits</span></a></li><li><a data-id="aced31d141771c56e2d98ba06f0eabea" href="/admin/auth/users"><span class="glyphicon glyphicon-user" style="margin-right:5px;"></span><span class="text">Users List</span></a></li></ul></li><li><a aria-expanded="false" data-id="4" href="#"><span class="glyphicon glyphicon-tent"></span>
+                            <span class="text"> Catalog Management</span><span class="fa arrow"></span></a><ul class="level_1 collapse" aria-expanded="false" nested="true"><li><a data-id="10" href="/admin/producttool/index"><span class="text">Products</span></a></li><li><a data-id="11" href="/admin/category/index"><span class="text">Categories</span></a></li><li><a data-id="12" href="/admin/manufacturer/index"><span class="text">Manufacturers</span></a></li><li><a data-id="226" href="#"><span class="text">Features</span><span class="fa arrow"></span></a><ul class="level_2 collapse" aria-expanded="false" nested="true"><li><a data-id="232" href="#"><span class="text">Groups</span><span class="fa arrow"></span></a><ul class="level_3 collapse" aria-expanded="false" nested="true"><li><a data-id="238" href="/admin/icecat/featureGroup/index"><span class="text">Icecat Groups List</span></a></li></ul></li><li><a data-id="228" href="#"><span class="text">Measures</span><span class="fa arrow"></span></a><ul class="level_3 collapse" aria-expanded="false" nested="true"><li><a data-id="236" href="/admin/icecat/measure/index"><span class="text">Icecat Measures List</span></a></li></ul></li><li><a data-id="227" href="#"><span class="text">Features</span><span class="fa arrow"></span></a><ul class="level_3 collapse" aria-expanded="false" nested="true"><li><a data-id="0336f918eca2bc37598a085353821958" href="/admin/icepim/icepimFeatures/index"><span class="text">IcePim Features List</span></a></li><li><a data-id="234" href="/admin/icecat/feature/index"><span class="text">Icecat Features List</span></a></li></ul></li></ul></li><li><a data-id="14" href="#"><span class="text">Mappings</span><span class="fa arrow"></span></a><ul class="level_2 collapse" aria-expanded="false" nested="true"><li><a data-id="24" href="/admin/mappings/manufacturer"><span class="text">Mapping Manufacturer</span></a></li><li><a data-id="25" href="/admin/mappings/category"><span class="text">Mapping Category</span></a></li><li><a data-id="2783519858" href="/admin/mappings/language"><span class="text">Mapping Language</span></a></li></ul></li><li><a data-id="15" href="#"><span class="text">Price Rules Management</span><span class="fa arrow"></span></a><ul class="level_2 collapse" aria-expanded="false" nested="true"><li><a data-id="b8a93d67baa494e49345664da097bbfd" href="/admin/grouppricerules/index"><span class="text">Price Rule Groups</span></a></li><li><a data-id="246" href="/admin/pricerules/index"><span class="text">Price Rules</span></a></li></ul></li><li><a data-id="248" href="#"><span class="text">Syndication</span><span class="fa arrow"></span></a><ul class="level_2 collapse" aria-expanded="false" nested="true"><li><a data-id="435531348" href="/admin/DataProvider/index"><span class="text">Syndication</span></a></li><li><a data-id="1090425941" href="/admin/DataProvider/supplier"><span class="text">Suppliers Syndication</span></a></li></ul></li><li><a data-id="ff435cf99364b22b98e70a7bc496bb95" href="/admin/discount"><span class="text">Discount rules</span></a></li></ul></li><li class="active_link"><a aria-expanded="false" data-id="79188982" href="#"><span class="glyphicon glyphicon-magnet"></span>
+                            <span class="text"> FO Settings</span><span class="fa arrow"></span></a><ul class="level_1 collapse" aria-expanded="false" nested="true"><li><a data-id="028d7b2ead1542d0085fc97143fab574" href="/admin/productWarranty/"><span class="text">Product Warranty</span></a></li><li><a data-id="320529983" href="/admin/accountTeam"><span class="text">Account Team</span></a></li><li><a data-id="211361849" href="/admin/banners/"><span class="text">Banners Management</span></a></li><li class="active_link"><a data-id="239" href="#"><span class="text">Translations</span><span class="fa arrow"></span></a><ul class="level_2 collapse" aria-expanded="false" nested="true"><li class="active_link"><a data-id="251" href="/admin/language/language"><span class="text">Management</span></a></li><li><a data-id="252" href="/admin/language/dictionary"><span class="text">Dictionaries</span></a></li></ul></li><li><a data-id="b5a24974e258e61beeffa0886dbd1bea" href="/admin/countryList/"><span class="text">Countries list</span></a></li><li><a data-id="b1cf4341b46964dbefa802bfeee50df8" href="/admin/faq"><span class="text">F.A.Q. </span></a></li><li><a data-id="224b35a1f41ac7d31da1d7296f9c9c2c" href="/admin/texts"><span class="glyphicon glyphicon-phone-alt" style="margin-right:5px;"></span><span class="text">Texts</span></a></li><li><a data-id="f0c6b2f69b0356fd492405baca5f8fb3" href="/admin/generalLogo"><span class="text">General logo</span></a></li></ul></li><li><a aria-expanded="false" data-id="8" href="#"><span class="glyphicon glyphicon-sunglasses"></span>
+                            <span class="text"> Administration</span><span class="fa arrow"></span></a><ul class="level_1 collapse" aria-expanded="false" nested="true"><li><a data-id="21" href="/admin/config"><span class="glyphicon glyphicon-star" style="margin-right:5px;"></span><span class="text">Configuration</span></a></li><li><a data-id="88" href="/admin/companies/reports/departmentsInfo"><span class="glyphicon glyphicon-star" style="margin-right:5px;"></span><span class="text">Departments statistic</span></a></li><li><a data-id="a8dd7aa63490a07f2efb4f1c63b8e7b7" href="#"><span class="text">Users</span><span class="fa arrow"></span></a><ul class="level_2 collapse" aria-expanded="false" nested="true"><li><a data-id="22" href="/admin/auth/authItem/roles"><span class="text">Manage Roles</span></a></li><li><a data-id="23" href="/admin/auth/admin"><span class="text">Manage Admins</span></a></li><li><a data-id="1568848577" href="/admin/auth/authItem/permissions"><span class="text">Manage Permissions</span></a></li><li><a data-id="229" href="/admin/user/profile"><span class="text">Profile</span></a></li></ul></li><li><a data-id="883217240" href="/admin/import/index"><span class="text">Imports</span></a></li><li><a data-id="4281138185" href="#"><span class="text">Connections</span><span class="fa arrow"></span></a><ul class="level_2 collapse" aria-expanded="false" nested="true"><li><a data-id="2936250143" href="/admin/bus/message"><span class="text">Messages</span></a></li><li><a data-id="2125224491" href="/admin/bus/transport"><span class="text">Transports</span></a></li><li><a data-id="1969534848" href="/admin/bus/mapper"><span class="text">Mappers</span></a></li></ul></li><li><a data-id="28" href="/admin/cronTask"><span class="text">Cron tasks</span></a></li><li><a data-id="3867456519" href="/admin/queue"><span class="text">RabbitMQ Management</span></a></li><li><a data-id="213" href="/admin/menu"><span class="text">Manage BO Menu</span></a></li><li><a data-id="20b9d57d9d14cf8a3556f549f3ee19b7" href="/admin/notifications/template"><span class="text">Notifications</span></a></li><li><a data-id="00f2a929deb3dc129685f6daba00e344" href="/admin/activity/log"><span class="text">Activity Log</span></a></li><li><a data-id="7128e3b48aa357144b7e932dd2609cab" href="/admin/taskDetails"><span class="text">Task Details</span></a></li><li><a data-id="1d7a13605c4202ad30ff6b2ce0f67d7b" href="/admin/logsView"><span class="text">Application logs</span></a></li></ul></li><li><a href="/admin/user/logout"><span class="glyphicon glyphicon-log-out"></span><span class="text"> Logout</span></a></li></ul></nav></aside>
+
+                <div class="text-center" style="display: block;">
+                    <span>Copyright @ 2019<br><span id="gepard-text">PT2017</span> Admin backoffice</span>
+                </div>
+            </div>
+            <div class="col-lg-20 slide_right">
+                
+                    <script>ResizeMenu.setSlideRight();</script>
+                
+
+                <div class="header">
+                    <div class="left"><ol class="breadcrumb">
+<li><a href="/admin/dashboard/index">Dashboard</a></li><li><span>FO Settings</span></li><li><span>Translations</span></li><li><a href="/admin/language/language">Management</a></li><li><span>Add language</span></li></ol></div>
+                </div>
+
+                <div class="row_title">
+                    <div class="left"><h3 class="gepard-title">Add Language</h3></div>
+                </div>
+                
+
+
+
+<form enctype="multipart/form-data" id="form" class="form-horizontal" action="/admin/language/language/create" method="post">
+<input type="hidden" value="SDkzVUY2aXpOVVZ3Y1MxVnI0R2ZXWU5vZWlmbXFvTkU9SM_1b2Z7lHeCoU87ooQXTZwc2uuOhi-8AUlBkjreKw==" name="CSRF_TOKEN">
+<div class="panel panel-default" id="yw0">
+<div class="panel-body">
+<div class="form-group has-success"><label class="control-label col-lg-4 required" for="Languages_language_id">Number <span class="required">*</span></label><div class="col-lg-16"><input name="Languages[language_id]" id="Languages_language_id" class="form-control" placeholder="Number" type="text"><p id="Languages_language_id_em_" style="display:none" class="help-block"></p></div></div>
+
+<div class="form-group has-success"><label class="control-label col-lg-4 required" for="Languages_name">Language name <span class="required">*</span></label><div class="col-lg-16"><input name="Languages[name]" id="Languages_name" class="form-control" placeholder="Language name" type="text" maxlength="255"><p id="Languages_name_em_" style="display:none" class="help-block"></p></div></div>
+
+<div class="form-group has-success"><label class="control-label col-lg-4 required" for="Languages_code">Language Code <span class="required">*</span></label><div class="col-lg-16"><select class="form-control" name="Languages[code]" id="Languages_code">
+<option value="aa">aa</option>
+<option value="af">af</option>
+<option value="ak">ak</option>
+<option value="am">am</option>
+<option value="ar">ar</option>
+<option value="as">as</option>
+<option value="az">az</option>
+<option value="be">be</option>
+<option value="bg">bg</option>
+<option value="bm">bm</option>
+<option value="bn">bn</option>
+<option value="bo">bo</option>
+<option value="br">br</option>
+<option value="bs">bs</option>
+<option value="ca">ca</option>
+<option value="cs">cs</option>
+<option value="cy">cy</option>
+<option value="da">da</option>
+<option value="de">de</option>
+<option value="dv">dv</option>
+<option value="dz">dz</option>
+<option value="ee">ee</option>
+<option value="el">el</option>
+<option value="en">en</option>
+<option value="eo">eo</option>
+<option value="es">es</option>
+<option value="et">et</option>
+<option value="eu">eu</option>
+<option value="fa">fa</option>
+<option value="ff">ff</option>
+<option value="fi">fi</option>
+<option value="fo">fo</option>
+<option value="fr">fr</option>
+<option value="ga">ga</option>
+<option value="gd">gd</option>
+<option value="gl">gl</option>
+<option value="gu">gu</option>
+<option value="gv">gv</option>
+<option value="ha">ha</option>
+<option value="he">he</option>
+<option value="hi">hi</option>
+<option value="hr">hr</option>
+<option value="hu">hu</option>
+<option value="hy">hy</option>
+<option value="ia">ia</option>
+<option value="id">id</option>
+<option value="ig">ig</option>
+<option value="ii">ii</option>
+<option value="in">in</option>
+<option value="is">is</option>
+<option value="it">it</option>
+<option value="iu">iu</option>
+<option value="iw">iw</option>
+<option value="ja">ja</option>
+<option value="ka">ka</option>
+<option value="ki">ki</option>
+<option value="kk">kk</option>
+<option value="kl">kl</option>
+<option value="km">km</option>
+<option value="kn">kn</option>
+<option value="ko">ko</option>
+<option value="ks">ks</option>
+<option value="ku">ku</option>
+<option value="kw">kw</option>
+<option value="ky">ky</option>
+<option value="lg">lg</option>
+<option value="ln">ln</option>
+<option value="lo">lo</option>
+<option value="lt">lt</option>
+<option value="lu">lu</option>
+<option value="lv">lv</option>
+<option value="mg">mg</option>
+<option value="mi">mi</option>
+<option value="mk">mk</option>
+<option value="ml">ml</option>
+<option value="mn">mn</option>
+<option value="mo">mo</option>
+<option value="mr">mr</option>
+<option value="ms">ms</option>
+<option value="mt">mt</option>
+<option value="my">my</option>
+<option value="nb">nb</option>
+<option value="nd">nd</option>
+<option value="ne">ne</option>
+<option value="nl">nl</option>
+<option value="nn">nn</option>
+<option value="no">no</option>
+<option value="nr">nr</option>
+<option value="ny">ny</option>
+<option value="oc">oc</option>
+<option value="om">om</option>
+<option value="or">or</option>
+<option value="os">os</option>
+<option value="pa">pa</option>
+<option value="pl">pl</option>
+<option value="ps">ps</option>
+<option value="pt">pt</option>
+<option value="rm">rm</option>
+<option value="rn">rn</option>
+<option value="ro">ro</option>
+<option value="ru">ru</option>
+<option value="rw">rw</option>
+<option value="sa">sa</option>
+<option value="se">se</option>
+<option value="sg">sg</option>
+<option value="sh">sh</option>
+<option value="si">si</option>
+<option value="sk">sk</option>
+<option value="sl">sl</option>
+<option value="sn">sn</option>
+<option value="so">so</option>
+<option value="sq">sq</option>
+<option value="sr">sr</option>
+<option value="ss">ss</option>
+<option value="st">st</option>
+<option value="sv">sv</option>
+<option value="sw">sw</option>
+<option value="ta">ta</option>
+<option value="te">te</option>
+<option value="tg">tg</option>
+<option value="th">th</option>
+<option value="ti">ti</option>
+<option value="tl">tl</option>
+<option value="tn">tn</option>
+<option value="to">to</option>
+<option value="tr">tr</option>
+<option value="ts">ts</option>
+<option value="tt">tt</option>
+<option value="ug">ug</option>
+<option value="uk">uk</option>
+<option value="ur">ur</option>
+<option value="uz">uz</option>
+<option value="ve">ve</option>
+<option value="vi">vi</option>
+<option value="vo">vo</option>
+<option value="wo">wo</option>
+<option value="xh">xh</option>
+<option value="yo">yo</option>
+<option value="zh">zh</option>
+<option value="zu">zu</option>
+</select><p id="Languages_code_em_" style="display:none" class="help-block"></p></div></div>
+
+<div class="form-group has-success"><label class="control-label col-lg-4 required" for="Languages_ogone_code">Ogone Code <span class="required">*</span></label><div class="col-lg-16"><input name="Languages[ogone_code]" id="Languages_ogone_code" class="form-control" placeholder="" type="text" maxlength="5"><p id="Languages_ogone_code_em_" style="display:none" class="help-block"></p></div></div>
+
+<div class="has-error form-group"><label class="control-label col-lg-4 required" for="Languages[flagFile]">Flag <span class="required">*</span></label><div class="col-lg-5"><input required="required" type="file" value="" name="Languages[flagFile]" id="Languages_flagFile"></div></div>
+
+
+<div class="form-group"><label class="control-label col-lg-4" for="Languages_active">Active</label><div class="checkbox abc-checkbox abc-checkbox-success col-lg-19"><input id="ytLanguages_active" type="hidden" value="0" name="Languages[active]"><input name="Languages[active]" id="Languages_active" value="1" type="checkbox"><label for="Languages_active"></label><p id="Languages_active_em_" style="display:none" class="help-block"></p></div></div>
+<div class="form-group"><label class="control-label col-lg-4" for="Languages_default">Default</label><div class="checkbox abc-checkbox abc-checkbox-success col-lg-19"><input id="ytLanguages_default" type="hidden" value="0" name="Languages[default]"><input name="Languages[default]" id="Languages_default" value="1" type="checkbox"><label for="Languages_default"></label><p id="Languages_default_em_" style="display:none" class="help-block"></p></div></div>
+
+</div>
+<div class="panel-footer">
+<div class="text-center submit_buttons"><button label="Create" class="controlling_buttons save_form btn btn-success" name="submit" value="save" type="submit">Create</button>
+<button label="Create &amp; add new" class="controlling_buttons new_form btn btn-info" name="submit" value="new" type="submit">Create &amp; add new</button>
+<a label="Back" class="controlling_buttons cancel_form btn btn-warning" href="#" id="yt0">Back</a>
+</div>
+</div>
+</div></form>
+<script>
+    $(document).ready(function () {
+        $('#Languages_default').click(function () {
+            if ($(this).is(':checked')) {
+                $('#Languages_active').prop('checked', true);
+            }
+        });
+    });
+</script>
+            </div>
+        </div>
+    </section>
+
+<div id="back-to-top">
+    <a href="#">Back to top</a>
+</div>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('body').on('click','#yt0',function(){location.href="/admin/language/language"; return false;jQuery.yii.submitForm(this,'',{});return false;});
+jQuery('#form').yiiactiveform({'validateOnSubmit':true,'validateOnChange':true,'attributes':[{'id':'Languages_language_id','inputID':'Languages_language_id','errorID':'Languages_language_id_em_','model':'Languages','name':'language_id','enableAjaxValidation':false,'inputContainer':'div.form\x2Dgroup','errorCssClass':'has\x2Derror','successCssClass':'has\x2Dsuccess','clientValidation':function(value, messages, attribute) {
+
+if(jQuery.trim(value)!='') {
+	
+if(!value.match(/^\s*[+-]?\d+\s*$/)) {
+	messages.push("Number must be an integer.");
+}
+
+}
+
+
+if(jQuery.trim(value)=='') {
+	messages.push("Number cannot be blank.");
+}
+
+}},{'id':'Languages_name','inputID':'Languages_name','errorID':'Languages_name_em_','model':'Languages','name':'name','enableAjaxValidation':false,'inputContainer':'div.form\x2Dgroup','errorCssClass':'has\x2Derror','successCssClass':'has\x2Dsuccess','clientValidation':function(value, messages, attribute) {
+
+if(jQuery.trim(value)=='') {
+	messages.push("Language name cannot be blank.");
+}
+
+
+if(jQuery.trim(value)!='') {
+	
+if(value.length>255) {
+	messages.push("Language name is too long (maximum is 255 characters).");
+}
+
+}
+
+}},{'id':'Languages_code','inputID':'Languages_code','errorID':'Languages_code_em_','model':'Languages','name':'code','enableAjaxValidation':false,'inputContainer':'div.form\x2Dgroup','errorCssClass':'has\x2Derror','successCssClass':'has\x2Dsuccess','clientValidation':function(value, messages, attribute) {
+
+if(jQuery.trim(value)=='') {
+	messages.push("Language Code cannot be blank.");
+}
+
+
+if(jQuery.trim(value)!='' && jQuery.inArray(value, ["aa","af","ak","am","ar","as","az","be","bg","bm","bn","bo","br","bs","ca","cs","cy","da","de","dv","dz","ee","el","en","eo","es","et","eu","fa","ff","fi","fo","fr","ga","gd","gl","gu","gv","ha","he","hi","hr","hu","hy","ia","id","ig","ii","in","is","it","iu","iw","ja","ka","ki","kk","kl","km","kn","ko","ks","ku","kw","ky","lg","ln","lo","lt","lu","lv","mg","mi","mk","ml","mn","mo","mr","ms","mt","my","nb","nd","ne","nl","nn","no","nr","ny","oc","om","or","os","pa","pl","ps","pt","rm","rn","ro","ru","rw","sa","se","sg","sh","si","sk","sl","sn","so","sq","sr","ss","st","sv","sw","ta","te","tg","th","ti","tl","tn","to","tr","ts","tt","ug","uk","ur","uz","ve","vi","vo","wo","xh","yo","zh","zu"])<0) {
+	messages.push("Language Code is not in the list.");
+}
+
+}},{'id':'Languages_ogone_code','inputID':'Languages_ogone_code','errorID':'Languages_ogone_code_em_','model':'Languages','name':'ogone_code','enableAjaxValidation':false,'inputContainer':'div.form\x2Dgroup','errorCssClass':'has\x2Derror','successCssClass':'has\x2Dsuccess','clientValidation':function(value, messages, attribute) {
+
+if(jQuery.trim(value)=='') {
+	messages.push("Ogone Code cannot be blank.");
+}
+
+
+if(jQuery.trim(value)!='') {
+	
+if(value.length<5) {
+	messages.push("Ogone Code is too short (minimum is 5 characters).");
+}
+
+if(value.length>5) {
+	messages.push("Ogone Code is too long (maximum is 5 characters).");
+}
+
+}
+
+}},{'id':'Languages_active','inputID':'Languages_active','errorID':'Languages_active_em_','model':'Languages','name':'active','enableAjaxValidation':false,'inputContainer':'div.form\x2Dgroup','errorCssClass':'has\x2Derror','successCssClass':'has\x2Dsuccess','clientValidation':function(value, messages, attribute) {
+
+if(jQuery.trim(value)!='') {
+	
+if(!value.match(/^\s*[+-]?\d+\s*$/)) {
+	messages.push("Active must be an integer.");
+}
+
+}
+
+
+if(jQuery.trim(value)!='') {
+	
+if(!value.match(/^\s*[+-]?\d+\s*$/)) {
+	messages.push("Active must be an integer.");
+}
+
+}
+
+}},{'id':'Languages_default','inputID':'Languages_default','errorID':'Languages_default_em_','model':'Languages','name':'default','enableAjaxValidation':false,'inputContainer':'div.form\x2Dgroup','errorCssClass':'has\x2Derror','successCssClass':'has\x2Dsuccess','clientValidation':function(value, messages, attribute) {
+
+if(jQuery.trim(value)!='') {
+	
+if(!value.match(/^\s*[+-]?\d+\s*$/)) {
+	messages.push("Default must be an integer.");
+}
+
+}
+
+
+if(jQuery.trim(value)!='') {
+	
+if(!value.match(/^\s*[+-]?\d+\s*$/)) {
+	messages.push("Default must be an integer.");
+}
+
+}
+
+}}],'errorCss':'error'});
+});
+/*]]>*/
+</script>
+
+
+
+
+<div id="overlay" style="display:none"><div id="ajax-loader"><img src="/content/images/bo/ajax-loader.gif" alt="Loading..."></div></div></body></html>

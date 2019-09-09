@@ -6,12 +6,11 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import static com.codeborne.selenide.Condition.*;
+import static com.codeborne.selenide.Selenide.*;
 
 import java.util.List;
 import java.util.Random;
-
-import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selenide.*;
 
 public class UserLogin extends Temp {
   private String PtUrl = "https://pt2017.centralpoint.io";
@@ -65,7 +64,7 @@ public class UserLogin extends Temp {
    String text = $(By.className("search-result-info")).getText();
    //sleep(7000000)
    String number = reg(text, "(\\d+)");
-      Assert.assertEquals(number, compare);
+   Assert.assertEquals(number, compare);
   }
 
   @Test(priority = 4)
