@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Task_2]" verbose="0">
+  <test thread-count="5" name="AddNewCategory(failed)" verbose="0">
+    <classes>
+      <class name="auto_test_task2.BOdocCategory">
+        <methods>
+          <include name="setUp"/>
+          <include name="AddDocCategorie"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- auto_test_task2.BOdocCategory -->
+    </classes>
+  </test> <!-- AddNewCategory(failed) -->
+</suite> <!-- Failed suite [Task_2] -->

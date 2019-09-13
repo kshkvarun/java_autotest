@@ -1,0 +1,7 @@
+<suite name="Task_2">
+    <test name="AddNewCategory">
+        <classes>
+            <class name="auto_test_task2.BOdocCategory" />
+        </classes>
+    </test>
+</suite>

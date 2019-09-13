@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.999 s <<< FAILURE! - in TestSuite
+AddDocCategorie(auto_test_task2.BOdocCategory)  Time elapsed: 7.638 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementShould: 
+Element should be visible {#CategoryDocument_multilingual_3_name}
+Element: '<input class="form-control" id="CategoryDocument_multilingual_3_name" name="CategoryDocument[multilingual][3][name]" type="text" displayed:false></input>'
+	at auto_test_task2.BOdocCategory.AddDocCategorie(BOdocCategory.java:25)
+
